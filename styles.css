@@ -1,0 +1,94 @@
+
+body {
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #141414;
+ 
+}
+
+.post {
+    width: 400px;
+    background: white;
+    margin: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title i {
+    font-size: 32px;
+}
+
+.title .right-info i {
+    font-size: 40px;
+   
+}
+.left-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.title-text {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.right-info {
+    display: flex;
+    align-items: center;
+}
+
+.right-info i {
+    font-size: 20px;
+    color: #333;
+}
+
+.post-img img {
+    width: 100%;
+   
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.text-container {
+    padding: 10px;
+}
+
+.text-body {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.liked-by {
+    font-size: 14px;
+    color: #999898;
+}
+
+.text-body strong {
+    color: #141111;
+}
